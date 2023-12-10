@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- swiperjs cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- scroll effect -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+	
+    <!-- google font link -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,400&family=Poppins:wght@400;500;700&display=swap"
+        rel="stylesheet" />
+
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Indo Metaverse</title>
+</head>
+
+<body>
+    <!-- header section starts -->
+    <header class="header bg-white10">
+        <div class="container">
+            <img src="img/METAVERSE.png" alt="" class="logometaverse">
+
+            <div class="menu">
+                <form action="" class="search-form">
+                    <label for="search-box" class="fas fa-search"></label>
+                    <input type="search" id="search-box" placeholder="Cari barang atau koleksi">
+                </form>
+                <a href="#collections" style="font-size: 17px;">Koleksimu</a>
+                <a href="#featured" style="font-size: 17px;">Unggulan</a>
+                <a href="#Top Creator" style="font-size: 17px;">Pencipta</a> 
+                <a href="#faq" style="font-size: 17px;">FAQ</a> 
+                <a href="Login.html" style="font-size: 17px;">Login</a>
+                <a class="btn bg-purple wallet" href="dashboard.html" style="font-size: 17px;">Dashboard</a>
+            </div>
+
+            <div class="fas fa-wallet" id="wallet"></div>
+            <div class="fas fa-bars" id="bar"></div>
+        </div>
+    </header>
+    <!-- header section ends -->
+
+    <!-- home section starts -->
+    <section id="home" class="spacetop15 spacebottom10">
+        <div class="container">
+            <div class="row jc-between ai-center col-reverse-s">
+                <div class="col5 col6-md col12-s ta-center-s">
+                    <h1 class="size5 bold spacebottom1">
+                        Buat, Jual & Koleksi NFT di Metaverse!
+                    </h1>
+                    <p class="size2 spacebottom3 halfwhite"> Ini bukan karya seni yang biasa. Ini adalah karya blockchain, di sini kita mengubah masa depan
+                    </p>
+
+                    <div class="row col8 col9-md jc-between spacebottom4 jc-evenly-s col12-s">
+                        <a href="#collections" class="btn bg-purple size2 white ">Jelajahi NFT</a>
+                        <a href="#banner" class="btn bg-white10 size2 white ">Jual NFT</a>
+                    </div>
+
+                    <div class="row jc-between">
+                        <div class="ta-center">
+                            <p class="size3 bold">37k+</p>
+                            <p class="size2 halfwhite">Karya</p>
+                        </div>
+                        <div class="ta-center">
+                            <p class="size3 bold">20k+</p>
+                            <p class="size2 halfwhite">Artis</p>
+                        </div>
+                        <div class="ta-center">
+                            <p class="size3 bold">99k+</p>
+                            <p class="size2 halfwhite">Lelang</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col6 col12-s spacebottom3-s">
+                    <img src="img/img2.png" alt="" class="img-responsive float" style="width: 100%;">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- home section ends -->
+
+    <!-- partner section starts -->
+    <section class="spacer5 spacer0-xs">
+        <div class="container row jc-between jc-around-md">
+            <img src="img/binance.svg" alt="" class="height6 img-responsive-md">
+            <img src="img/ethereum.svg" alt="" class="height6 img-responsive-md">
+            <img src="img/blockchain.svg" alt="" class="height6 img-responsive-md spacetop1-md">
+        </div>
+    </section>
+    <!-- partner section ends -->
+
+    <!-- about section starts -->
+    <section id="about" class="spacer10">
+        <div class="container">
+            <h1 class="bold size4 ta-center">Beberapa NFT yang Populer di Dunia</h1>
+            <p class="spacebottom3 halfwhite size2 ta-center">
+                Bored Ape Yacht Club
+            </p>
+            <div class="row ai-center jc-between flexcol-s">
+                <div class="col5 col10-s spacebottom2-s">
+                    <img src="img\ape01.png" class="img-responsive" alt="">
+                </div>
+                <div class="col6 col12-s ta-center-s">
+                    <h3 class="size3 bold">Dapatkan Popular NFT</h3>
+                    <p class="size2 spacetop1 spacebottom3 halfwhite">Bored Ape Yacht Club adalah serangkaian 10.000 gambar avatar pixel yang dicetak dalam bentuk NFT di blockchain Ethereum. Dibuat oleh Yuga Labs, Bored Ape Yacht Club dirilis pada April 2021. Seperti namanya, gambar avatar pixel dari NFT ini berwujud kera yang menunjukkan mimik wajah bosan atau tidak tetarik.</br>
+                    <br>
+                    <a href="#collections" class="btn bg-purple size2 white">Tampilkan</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- about section ends -->
+
+    <!-- collections section starts -->
+    <section class="collections spacer10" id="collections">
+        <div class="container">
+            <h1 class="bold size4 ta-center">Koleksi</h1>
+            <p class="spacebottom3 halfwhite size2 ta-center">
+                Ayo dapatkan NFT terbaik sebagai aset digital<br>di Metaverse!
+            </p>
+            <div class="row spacebottom3 filter-buttons">
+                <div class="col3 filter col6-xs spacebottom1-xs" data-filter="all">Semua</div>
+                <div class="col3 filter col6-xs spacebottom1-xs" data-filter="Most Famous">Terkenal</div>
+                <div class="col3 filter col6-xs" data-filter="Highest Bid">Harga Tinggi</div>
+                <div class="col3 filter col6-xs" data-filter="Lowest Quantity">Jumlah Rendah</div>
+            </div>
+            <div class="row box-card jc-evenly-md">
+                <div class="col4 card collect bg-white10 col5-md col6-s" data-item="Most Famous">
+                    <img src="img/ape1.jpg" class="img-responsive" alt="" style="border-radius: 10%;">
+                    <div class="row jc-between spacetop2">
+                        <div>
+                            <p class="size2 halfwhite">
+                                @Monkey01
+                            </p>
+                            <h5 class="size2 bold">Low Hat</h5>
+                        </div>
+                        <div>
+                            <p class="current halfwhite">Harga Sekarang</p>
+                            <h5 class="size2 bold">0.43 ETH</h5>
+                        </div>
+                    </div>
+                    <a class="bid size2 ta-center">
+                        Lelang Sekarang
+                    </a>
+                </div>
+                <div class="col4 card collect bg-white10 col5-md col6-s" data-item="Highest Bid">
+                    <img src="img/ape2.jpg" class="img-responsive" alt="" style="border-radius: 10%;">
+                    <div class="row jc-between spacetop2">
+                        <div>
+                            <p class="size2 halfwhite">
+                                @Monkey02
+                            </p>
+                            <h5 class="size2 bold">Orang Hat</h5>
+                        </div>
+                        <div>
+                            <p class="current halfwhite">Harga Sekarang</p>
+                            <h5 class="size2 bold">0.9 ETH</h5>
+                        </div>
+                    </div>
+                    <a class="bid size2 ta-center">
+                        Lelang Sekarang
+                    </a>
+                </div>
+                <div class="col4 card collect bg-white10 col5-md col6-s" data-item="Lowest Quantity">
+                    <img src="img/ape3.jpg" class="img-responsive" alt="" style="border-radius: 10%;">
+                    <div class="row jc-between spacetop2">
+                        <div>
+                            <p class="size2 halfwhite">
+                                @Monkey03
+                            </p>
+                            <h5 class="size2 bold">Hippy</h5>
+                        </div>
+                        <div>
+                            <p class="current halfwhite">Harga Sekarang</p>
+                            <h5 class="size2 bold">0.141 ETH</h5>
+                        </div>
+                    </div>
+                    <a class="bid size2 ta-center">
+                        Lelang Sekarang
+                    </a>
+                </div>
+
+                <div class="col4 card collect bg-white10 col5-md col6-s" data-item="Most Famous">
+                    <img src="img/ape4.jpg" class="img-responsive" alt="" style="border-radius: 10%;">
+                    <div class="row jc-between spacetop2">
+                        <div>
+                            <p class="size2 halfwhite">
+                                @Monkey04
+                            </p>
+                            <h5 class="size2 bold">Undead</h5>
+                        </div>
+                        <div>
+                            <p class="current halfwhite">Harga Sekarang</p>
+                            <h5 class="size2 bold">0.098 ETH</h5>
+                        </div>
+                    </div>
+                    <a class="bid size2 ta-center">
+                        Lelang Sekarang
+                    </a>
+                </div>
+                <div class="col4 card collect bg-white10 col5-md col6-s" data-item="Highest Bid">
+                    <img src="img/ape5.jpg" class="img-responsive" alt="" style="border-radius: 10%;">
+                    <div class="row jc-between spacetop2">
+                        <div>
+                            <p class="size2 halfwhite">
+                                @Monkey05
+                            </p>
+                            <h5 class="size2 bold">Metal</h5>
+                        </div>
+                        <div>
+                            <p class="current halfwhite">Harga Sekarang</p>
+                            <h5 class="size2 bold">0.42 ETH</h5>
+                        </div>
+                    </div>
+                    <a class="bid size2 ta-center">
+                        Lelang Sekarang
+                    </a>
+                </div>
+                <div class="col4 card collect bg-white10 col5-md col6-s" data-item="Lowest Quantity">
+                    <img src="img/ape6.jpg" class="img-responsive" alt="" style="border-radius: 10%;">
+                    <div class="row jc-between spacetop2">
+                        <div>
+                            <p class="size2 halfwhite">
+                                @Monkey06
+                            </p>
+                            <h5 class="size2 bold">Original</h5>
+                        </div>
+                        <div>
+                            <p class="current halfwhite">Harga Sekarang</p>
+                            <h5 class="size2 bold">0.140 ETH</h5>
+                        </div>
+                    </div>
+                    <a class="bid size2 ta-center">
+                        Lelang Sekarang
+                    </a>
+                </div>
+
+                <div class="col4 card collect bg-white10 col5-md col6-s" data-item="Most Famous">
+                    <img src="img/ape7.jpg" class="img-responsive" alt="" style="border-radius: 10%;">
+                    <div class="row jc-between spacetop2">
+                        <div>
+                            <p class="size2 halfwhite">
+                                @Monkey07
+                            </p>
+                            <h5 class="size2 bold">Blind</h5>
+                        </div>
+                        <div>
+                            <p class="current halfwhite">Harga Sekarang</p>
+                            <h5 class="size2 bold">0.097 ETH</h5>
+                        </div>
+                    </div>
+                    <a class="bid size2 ta-center">
+                        Lelang Sekarang
+                    </a>
+                </div>
+                <div class="col4 card collect bg-white10 col5-md col6-s" data-item="Highest Bid">
+                    <img src="img/ape8.jpg" class="img-responsive" alt="" style="border-radius: 10%;">
+                    <div class="row jc-between spacetop2">
+                        <div>
+                            <p class="size2 halfwhite">
+                                @Monkey08
+                            </p>
+                            <h5 class="size2 bold">Glass Swag</h5>
+                        </div>
+                        <div>
+                            <p class="current halfwhite">Harga Sekarang</p>
+                            <h5 class="size2 bold">0.37 ETH</h5>
+                        </div>
+                    </div>
+                    <a class="bid size2 ta-center">
+                        Lelang Sekarang
+                    </a>
+                </div>
+                <div class="col4 card collect bg-white10 col5-md col6-s" data-item="Lowest Quantity">
+                    <img src="img/ape9.jpg" class="img-responsive" alt="" style="border-radius: 10%;">
+                    <div class="row jc-between spacetop2">
+                        <div>
+                            <p class="size2 halfwhite">
+                                @Monkey09
+                            </p>
+                            <h5 class="size2 bold">Sailor Freak</h5>
+                        </div>
+                        <div>
+                            <p class="current halfwhite">Harga Sekarang</p>
+                            <h5 class="size2 bold">0.0139 ETH</h5>
+                        </div>
+                    </div>
+                    <a class="bid size2 ta-center">
+                        Lelang Sekarang
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- collections section ends -->
+
+    <!-- featured section starts -->
+    <section class="featured spacer10" id="featured">
+        <div class="container">
+            <h1 class="bold size4 ta-center">Karya Unggulan</h1>
+            <p class="spacebottom3 halfwhite size2 ta-center">
+                Karya Popular NFT di 2022
+            </p>
+            <div class="swiper card-slider row">
+                <div class="swiper-wrapper">
+                    <div class="col4 col5-md col7-s swiper-slide">
+                        <div class="card bg-white10">
+                            <img src="img/claylings nft.png" class="img-responsive" alt="" style="border-radius: 10%;">
+                            <div class="row jc-between spacetop2">
+                                <div>
+                                    <p class="size2 halfwhite">
+                                        @Anthony
+                                    </p>
+                                    <h5 class="size2 bold">Claylings</h5>
+                                </div>
+                                <div>
+                                    <p class="current halfwhite">Harga Sekarang</p>
+                                    <h5 class="size2 bold">0.003ETH</h5>
+                                </div>
+                            </div>
+                            <a class="bid size2 ta-center">
+                                Harga ini
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col4 col5-md col7-s swiper-slide">
+                        <div class="card bg-white10">
+                            <img src="img/cryptopunks.jpg" class="img-responsive" alt="" style="border-radius: 10%;">
+                            <div class="row jc-between spacetop2">
+                                <div>
+                                    <p class="size2 halfwhite">
+                                        @Jhonny
+                                    </p>
+                                    <h5 class="size2 bold">CryptoPunks</h5>
+                                </div>
+                                <div>
+                                    <p class="current halfwhite">Harga Sekarang</p>
+                                    <h5 class="size2 bold">0.009ETH</h5>
+                                </div>
+                            </div>
+                            <a class="bid size2 ta-center">
+                                Harga ini
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col4 col5-md col7-s swiper-slide">
+                        <div class="card bg-white10">
+                            <img src="img/doodles.jpg" class="img-responsive" alt="" style="border-radius: 10%;">
+                            <div class="row jc-between spacetop2">
+                                <div>
+                                    <p class="size2 halfwhite">
+                                        @Marco
+                                    </p>
+                                    <h5 class="size2 bold">Doodles</h5>
+                                </div>
+                                <div>
+                                    <p class="current halfwhite">Harga Sekarang</p>
+                                    <h5 class="size2 bold">0.004ETH</h5>
+                                </div>
+                            </div>
+                            <a class="bid size2 ta-center">
+                                Harga ini
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col4 col5-md col7-s swiper-slide">
+                        <div class="card bg-white10">
+                            <img src="img/cyberkongz.jpg" class="img-responsive" alt="" style="border-radius: 10%;">
+                            <div class="row jc-between spacetop2">
+                                <div>
+                                    <p class="size2 halfwhite">
+                                        @Carlos
+                                    </p>
+                                    <h5 class="size2 bold">CyberKongz</h5>
+                                </div>
+                                <div>
+                                    <p class="current halfwhite">Harga Sekarang</p>
+                                    <h5 class="size2 bold">0.007ETH</h5>
+                                </div>
+                            </div>
+                            <a class="bid size2 ta-center">
+                                Harga ini
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- featured section ends -->
+
+    <!-- creator section starts -->
+    <section class="creator spacer10" id="Top Creator">
+        <div class="container">
+            <h1 class="bold size4 ta-center">Top Creator</h1>
+            <p class="spacebottom3 halfwhite size2 ta-center">
+                Best Selling NFT Creators of The Year
+            </p>
+            <div class="swiper row creator-slider">
+                <div class="swiper-wrapper">
+                    <div class="col4 col5-md col7-s swiper-slide">
+                        <div class="card-creator bg-white10 ta-center">
+                            <img src="img/ape5.jpg" class="img-responsive" alt="" style="border-radius: 10%;">
+                            <img src="img/photo1.png" class="photo" alt="">
+                            <h5 class="spacer1 size2 bold">Tiara Anandri</h5>
+                            <p class="spacebottom2 halfwhite desc">NFT enthusiast with deeply connection of art.</p>
+                            <button class="follow ta-center bg-purple white">+ Follow</button>
+                        </div>
+                    </div>
+                    <div class="col4 col5-md col7-s swiper-slide">
+                        <div class="card-creator bg-white10 ta-center">
+                            <img src="img/cyberkongz.jpg" class="img-responsive" alt="" style="border-radius: 10%;">
+                            <img src="img/photo2.png" class="photo" alt="">
+                            <h5 class="spacer1 size2 bold">John Wick</h5>
+                            <p class="spacebottom2 halfwhite desc">I like to design same object but with different style and emotions.</p>
+                            <button class="follow ta-center bg-purple white">+ Follow</button>
+                        </div>
+                    </div>
+                    <div class="col4 col5-md col7-s swiper-slide">
+                        <div class="card-creator bg-white10 ta-center">
+                            <img src="img/ape10.jpg" class="img-responsive" alt="" style="border-radius: 10%;">
+                            <img src="img/photo3.png" class="photo" alt="">
+                            <h5 class="spacer1 size2 bold">Sarah Sechan</h5>
+                            <p class="spacebottom2 halfwhite desc">Hi! I'm Sarah and i loOooOve to explore my creativity.</p>
+                            <button class="follow ta-center bg-purple white">+ Follow</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- creator section ends -->
+
+    <!-- FAQ section starts -->
+    <section class="spacer10" id="faq">
+        <div class="container">
+            <h1 class="bold size4 ta-center" style="font-size: 30px;">Frequently Asked<br>Question</h1><br>
+            <p class="spacebottom3 halfwhite size2 ta-center">
+                Mau Tanya Sesuatu?
+            </p>
+            <div class="row jc-between">
+                <div class="box-faq col6 col12-s">
+                    <div class="box spacebottom5">
+                        <div class="title row jc-between">
+                            <h3 class="size2 halfwhite">Apa itu Metaverse?</h3>
+                            <i class="fas fa-angle-down size2 halfwhite"></i>
+                        </div>
+                        <p class="answer size2 spacetop1 ">Metaverse adalah seperangkat ruang virtual, tempat pengguna bisa membuat dan menjelajah dunia dengan pengguna internet lainnya. Pengguna pun tidak perlu berada pada ruang fisik yang sama dengan orang lain. Mereka hanya perlu “masuk” ke dunia metaverse.</p>
+                    </div>
+                    <div class="box spacebottom5">
+                        <div class="title row jc-between">
+                            <h3 class="size2 halfwhite">Bagaimana cara kerja Metaverse?</h3>
+                            <i class="fas fa-angle-down size2 halfwhite"></i>
+                        </div>
+                        <p class="answer size2 spacetop1 ">Dunia metaverse adalah dunia komunitas virtual yang dibangun saling terhubung satu sama lain, di mana orang dapat bertemu, bekerja, dan bermain, bahkan bertransaksi jual-beli layaknya dunia nyata berkat bantuan teknologi augmented reality (AR) dan virtual reality (VR).</p>
+                    </div>
+                    <div class="box spacebottom5">
+                        <div class="title row jc-between">
+                            <h3 class="size2 halfwhite">Apa saja yang bisa dilakukan di Metaverse?</h3>
+                            <i class="fas fa-angle-down size2 halfwhite"></i>
+                        </div>
+                        <p class="answer size2 spacetop1 ">Di metaverse, pengguna dapat menikmati dunia game seperti dunia nyata. Anda bisa memainkan berbagai game favorit yang sudah mendukung teknologi VR. Mulai dari Decentraland, Axie Infinity, Sandbox, Yield Guild Games, Mines of Dalarnia, Chromia, hingga Gala.</p>
+                    </div>
+                </div>
+                <div class="box-faq col6 col12-s">
+                    <div class="box spacebottom5">
+                        <div class="title row jc-between">
+                            <h3 class="size2 halfwhite">Apa itu NFT?</h3>
+                            <i class="fas fa-angle-down size2 halfwhite"></i>
+                        </div>
+                        <p class="answer size2 spacetop1 ">NFT adalah aset digital yang mewakili objek dunia nyata seperti seni, musik, item dalam game, dan video. Mereka dibeli dan dijual secara online, seringkali dengan cryptocurrency, dan umumnya dikodekan dengan perangkat lunak dasar yang sama dengan banyak cryptos.</p>
+                    </div>
+                    <div class="box spacebottom5">
+                        <div class="title row jc-between">
+                            <h3 class="size2 halfwhite">Untuk apa NFT digunakan?</h3>
+                            <i class="fas fa-angle-down size2 halfwhite"></i>
+                        </div>
+                        <p class="answer size2 spacetop1 ">Teknologi Blockchain dan NFT memberi peluang seniman dan pembuat konten peluang unik untuk memonetisasi barang dagangan mereka. Misalnya, seniman tidak lagi harus bergantung pada galeri atau balai lelang untuk menjual karya seninya.</p>
+                    </div>
+                    <div class="box spacebottom5">
+                        <div class="title row jc-between">
+                            <h3 class="size2 halfwhite">Apa hubungan antara NFT dan Metaverse?</h3>
+                            <i class="fas fa-angle-down size2 halfwhite"></i>
+                        </div>
+                        <p class="answer size2 spacetop1 ">Hubungan utama antara metaverse dan NFT terkait dengan aset digital dan bagaimana keduanya memiliki nilai. Metaverse memungkinkan pengguna menampilkan bentuk digital dari seni dan properti. Sementara, NFT memungkinkan pengguna untuk memberi harga pada konten tersebut dengan bukti kepemilikan.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ section ends -->
+
+    <!-- banner section starts -->
+    <section class="spacer10" id="banner">
+        <div class="container spacer5 bg-purple ta-center">
+            <h1 class="size5 bold spacebottom2 size4-xs">Periksa Koleksi NFT Milikmu!</h1>
+            <a class="btn bg-halfwhite size2 started " href="dashboard.html" style="color: white;">Koleksimu</a>
+        </div>
+    </section>
+    <!-- banner section ends -->
+
+    <!-- footer section starts -->
+    <footer class="spacer10">
+        <div class="container row jc-between flexcol-s ta-center-s">
+            <div class="row flexcol spacebottom3-s">
+                <a href="#home" class="size2 bold white">METAVERSE</a>
+                <p class="size2 halfwhite spacetop2">The best NFT marketplace website in<br>the world and feel your
+                    experience
+                    in<br>selling or buy our work</p>
+            </div>
+            <div class="row flexcol spacebottom3-s">
+                <a href="#about" class="bold size2 white">About</a>
+                <a href="#" class="size2 halfwhite spacetop2">Product</a>
+                <a href="#" class="size2 halfwhite spacetop2">Resource</a>
+                <a href="#" class="size2 halfwhite spacetop2">Term & Condition</a>
+                <a href="#" class="size2 halfwhite spacetop2">FAQ</a>
+            </div>
+            <div class="row flexcol spacebottom3-s">
+                <a href="#" class="bold size2 white">Company</a>
+                <a href="#" class="size2 halfwhite spacetop2">Our Team</a>
+                <a href="#" class="size2 halfwhite spacetop2">Partner With Us</a>
+                <a href="#" class="size2 halfwhite spacetop2">Privacy & Policy</a>
+                <a href="#" class="size2 halfwhite spacetop2">Features</a>
+            </div>
+            <div class="row flexcol spacebottom3-s">
+                <h5 class="bold size2">Contact</h5>
+                <a href="#" class="size2 halfwhite spacetop2">+012 3456789</a>
+                <a href="#" class="size2 halfwhite spacetop2">xyz@gmail.com</a>
+                <div class="row jc-between spacetop2 jc-evenly-s">
+                    <a href="#" class="fab fa-youtube size2 halfwhite spacetop2"></a>
+                    <a href="#" class="fab fa-discord size2 halfwhite spacetop2"></a>
+                    <a href="#" class="fab fa-instagram size2 halfwhite spacetop2"></a>
+                </div>
+            </div>
+        </div>
+        <p class="size2 halfwhite spacetop5 ta-center">Partnered with <span class="white bold">Binance</span>, <span class="white bold">Ethereum</span>, and <span class="white bold">blockchain.io</span><br>| All Right
+            Reserved! |</p>
+            <!-- APP JS -->
+            <script src="./app.js"></script>
+
+            <!-- end of login -->
+
+    </footer>
+    <!-- footer section ends -->
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- custom js file link -->
+    <script src="js/script.js"></script>
+    <script src="js/login.js"></script>
+    <script>
+        ScrollReveal({
+            reset:true,
+            distance:'60px',
+            duration:2500,
+            delay:250
+        });
+        ScrollReveal().reveal('.spacer10',{delay:350,origin:'left'});
+        ScrollReveal().reveal('.col5 col10-s spacebottom2-s .img-responsive imghover',{delay:450,origin:'bottom'})
+    </script>
+</body>
+
+</html>
